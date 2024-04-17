@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Other styles to reset */
+}
+
+#ai-logo {
+    text-align: center;
+    gap: 0px;
+}
+
+.mainCointainer {
+    padding: 2px 29%;
+}
+
+.dotted-line {
+    border-top: 3px dashed #404040;
+    opacity: 0.2;
+}
+
+.heading2 {
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    gap: 0px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 5% 0%;
+    text-align: left;
+}
+
+.heading2>div {
+    width: 505px;
+    color: #42505C;
+}
+
+.contant {
+    display: flex;
+    border: red solid 2px;
+    /* padding-bottom: 1%; */
+}
+
+.contant-left {
+    width: 338px;
+    opacity: 0.99;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    padding-right: 15px;
+    color: #404040;
+    height: 230px;
+}
+
+.contant-left>p {
+    margin-bottom: 12px;
+}
+
+/* .contant-left>span {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+} */
+
+.contant-right {
+    width: 150px;
+    height: 230px;
+}
+
+.contant-right>img{
+    position: relative;
+    right: 0px;
+    bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    height: 48px;
+    opacity: 0px;
+    background: #FF725E;
+    color: #FFFFFF;
+    border: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin: 3% 0px;
+}
+
+.note{
+    width: 337px;
+height: 17px;
+opacity: 0.99;
+font-family: Roboto;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.25px;
+text-align: left;
+color: #404040;
+margin: 2% 0%;
+}
+
+.heading1 {
+
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+
+}
+
+.contact {
+    opacity: 0.4;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #404040;
+    padding-top: 3%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.contact>span {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #404040
+}
+
+.greeting {
+    width: 362px;
+    height: 56px;
+    /* padding: 10px 0px; */
+    padding-top: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    .mainCointainer {
+        padding: 2px 25%
+    }
+
+}
+
+@media only screen and (max-width: 1125px) {
+
+    .mainCointainer {
+        padding: 2px 20%
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .mainCointainer {
+        padding: 2px 15%
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .mainCointainer {
+        padding: 2px 10%
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .mainCointainer {
+        padding: 2px 4%
+    }
+
+}
